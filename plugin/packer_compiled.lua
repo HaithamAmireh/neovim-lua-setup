@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "/home/haitham/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["dashboard-nvim"] = {
+    loaded = true,
+    path = "/home/haitham/.local/share/nvim/site/pack/packer/start/dashboard-nvim",
+    url = "https://github.com/glepnir/dashboard-nvim"
+  },
   everforest = {
     loaded = true,
     path = "/home/haitham/.local/share/nvim/site/pack/packer/start/everforest",
@@ -211,11 +216,6 @@ _G.packer_plugins = {
     path = "/home/haitham/.local/share/nvim/site/pack/packer/start/pop-punk.vim",
     url = "https://github.com/bignimbus/pop-punk.vim"
   },
-  ["seoul256.vim"] = {
-    loaded = true,
-    path = "/home/haitham/.local/share/nvim/site/pack/packer/start/seoul256.vim",
-    url = "https://github.com/junegunn/seoul256.vim"
-  },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
     path = "/home/haitham/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
@@ -255,6 +255,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/haitham/.local/share/nvim/site/pack/packer/start/vscode-es7-javascript-react-snippets",
     url = "https://github.com/dsznajder/vscode-es7-javascript-react-snippets"
+  },
+  zengarden = {
+    loaded = true,
+    path = "/home/haitham/.local/share/nvim/site/pack/packer/start/zengarden",
+    url = "https://github.com/tobi-wan-kenobi/zengarden"
   }
 }
 

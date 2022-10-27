@@ -31,18 +31,17 @@ return packer.startup(function(use)
 	-- packer can manage itself
 	use("wbthomason/packer.nvim")
 
+  -- Colorschemes
 	use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
-
 	use("folke/tokyonight.nvim")
 	use("sainnhe/everforest")
+	use("bignimbus/pop-punk.vim")
+  use("tobi-wan-kenobi/zengarden")
 
 	use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
 
 	use("szw/vim-maximizer") -- maximizes and restores current window
 
-	use("bignimbus/pop-punk.vim")
-
-	use("junegunn/seoul256.vim")
 
 	-- essential plugins
 	use("tpope/vim-surround") -- add, delete, change surroundings (it's awesome)
@@ -104,6 +103,9 @@ return packer.startup(function(use)
 
 	-- git integration
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
+
+	-- Dashboard
+	use("glepnir/dashboard-nvim")
 
 	if packer_bootstrap then
 		require("packer").sync()
