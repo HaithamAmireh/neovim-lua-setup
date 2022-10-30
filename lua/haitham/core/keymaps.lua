@@ -28,8 +28,7 @@ keymap("n", "<leader>sx", ":close<CR>", opts) -- close current split window
 
 keymap("n", "<leader>tt", ":tabnew<CR>", opts) -- open new tab
 keymap("n", "<leader>tx", ":tabclose<CR>", opts) -- close current tab
-keymap("n", "<leader>tn", ":tabn<CR>", opts) --  go to next tab
-keymap("n", "<leader>tp", ":tabp<CR>", opts) --  go to previous tab
+keymap("n", "<leader>gt", ":tabp<CR>", opts) --  go to previous tab
 
 --vim-maximizer
 keymap("n", "<leader>sm", ":MaximizerToggle<CR>", opts)

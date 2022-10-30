@@ -38,5 +38,6 @@ opt.splitbelow = true
 
 opt.iskeyword:append("-")
 
-
+--character limitation
+opt.colorcolumn = "120"
 

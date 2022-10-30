@@ -37,6 +37,8 @@ return packer.startup(function(use)
 	use("sainnhe/everforest")
 	use("bignimbus/pop-punk.vim")
   use("tobi-wan-kenobi/zengarden")
+  use("Rigellute/shades-of-purple.vim")
+  use("reewr/vim-monokai-phoenix")
 
 	use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
 
@@ -104,8 +106,11 @@ return packer.startup(function(use)
 	-- git integration
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
-	-- Dashboard
+	-- dashboard
 	use("glepnir/dashboard-nvim")
+
+  -- indent lines
+  use ("lukas-reineke/indent-blankline.nvim")
 
 	if packer_bootstrap then
 		require("packer").sync()

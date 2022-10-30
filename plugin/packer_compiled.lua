@@ -129,6 +129,11 @@ _G.packer_plugins = {
     path = "/home/haitham/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "/home/haitham/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
+  },
   ["lspkind.nvim"] = {
     loaded = true,
     path = "/home/haitham/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
@@ -216,6 +221,11 @@ _G.packer_plugins = {
     path = "/home/haitham/.local/share/nvim/site/pack/packer/start/pop-punk.vim",
     url = "https://github.com/bignimbus/pop-punk.vim"
   },
+  ["shades-of-purple.vim"] = {
+    loaded = true,
+    path = "/home/haitham/.local/share/nvim/site/pack/packer/start/shades-of-purple.vim",
+    url = "https://github.com/Rigellute/shades-of-purple.vim"
+  },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
     path = "/home/haitham/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
@@ -240,6 +250,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/haitham/.local/share/nvim/site/pack/packer/start/vim-maximizer",
     url = "https://github.com/szw/vim-maximizer"
+  },
+  ["vim-monokai-phoenix"] = {
+    loaded = true,
+    path = "/home/haitham/.local/share/nvim/site/pack/packer/start/vim-monokai-phoenix",
+    url = "https://github.com/reewr/vim-monokai-phoenix"
   },
   ["vim-surround"] = {
     loaded = true,

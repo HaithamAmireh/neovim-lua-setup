@@ -5,7 +5,7 @@ if not status then
 end
 
 -- get lualine nightfly theme
-local lualine_nightfly = require("lualine.themes.everforest")
+local lualine_nightfly = require("lualine.themes.papercolor_dark")
 
 -- new colors for theme
 local new_colors = {
@@ -17,9 +17,9 @@ local new_colors = {
 }
 
 -- change nightlfy theme colors
-lualine_nightfly.normal.a.bg = new_colors.orange
+lualine_nightfly.normal.a.bg = new_colors.green
 lualine_nightfly.insert.a.bg = new_colors.violet
-lualine_nightfly.visual.a.bg = new_colors.green
+lualine_nightfly.visual.a.bg = new_colors.orange
 lualine_nightfly.command = {
 	a = {
 		gui = "bold",
@@ -36,7 +36,7 @@ lualine_nightfly.command = {
 -- })
 lualine.setup({
 	options = {
-		theme = "everforest",
+		theme = "nord",
 
 	},
 })
