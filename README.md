@@ -5,3 +5,9 @@
 `npm i typescript-language-server`
 `sudo apt-get install ripgrep`
 for it to work you have to have a recent node version
+
+### To add support for python 
+
+npm i -g pyright
+add to config
+require'lspconfig'.pyright.setup{}
