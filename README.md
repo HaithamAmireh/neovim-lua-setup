@@ -8,6 +8,6 @@ for it to work you have to have a recent node version
 
 ### To add support for python 
 
-npm i -g pyright
-add to config
-require'lspconfig'.pyright.setup{}
+`npm i -g pyright` \n
+add to config \n
+`require'lspconfig'.pyright.setup{}`
