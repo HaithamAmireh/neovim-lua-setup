@@ -31,19 +31,19 @@ return packer.startup(function(use)
 	-- packer can manage itself
 	use("wbthomason/packer.nvim")
 
-  -- Colorschemes
+	-- Colorschemes
 	use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
 	use("folke/tokyonight.nvim")
 	use("sainnhe/everforest")
 	use("bignimbus/pop-punk.vim")
-  use("tobi-wan-kenobi/zengarden")
-  use("Rigellute/shades-of-purple.vim")
-  use("reewr/vim-monokai-phoenix")
+	use("tobi-wan-kenobi/zengarden")
+	use("Rigellute/shades-of-purple.vim")
+	use("reewr/vim-monokai-phoenix")
+	use("liuchengxu/space-vim-dark")
 
 	use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
 
 	use("szw/vim-maximizer") -- maximizes and restores current window
-
 
 	-- essential plugins
 	use("tpope/vim-surround") -- add, delete, change surroundings (it's awesome)
@@ -109,8 +109,8 @@ return packer.startup(function(use)
 	-- dashboard
 	use("glepnir/dashboard-nvim")
 
-  -- indent lines
-  use ("lukas-reineke/indent-blankline.nvim")
+	-- indent lines
+	use("lukas-reineke/indent-blankline.nvim")
 
 	if packer_bootstrap then
 		require("packer").sync()

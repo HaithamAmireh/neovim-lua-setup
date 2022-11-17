@@ -226,6 +226,11 @@ _G.packer_plugins = {
     path = "/home/haitham/.local/share/nvim/site/pack/packer/start/shades-of-purple.vim",
     url = "https://github.com/Rigellute/shades-of-purple.vim"
   },
+  ["space-vim-dark"] = {
+    loaded = true,
+    path = "/home/haitham/.local/share/nvim/site/pack/packer/start/space-vim-dark",
+    url = "https://github.com/liuchengxu/space-vim-dark"
+  },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
     path = "/home/haitham/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",

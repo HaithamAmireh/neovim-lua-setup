@@ -102,3 +102,4 @@ lspconfig["sumneko_lua"].setup({
 		},
 	},
 })
+require'lspconfig'.pyright.setup{}
