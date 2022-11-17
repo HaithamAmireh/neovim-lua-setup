@@ -11,3 +11,6 @@ for it to work you have to have a recent node version
 `npm i -g pyright` \n
 add to config \n
 `require'lspconfig'.pyright.setup{}`
+
+
+###make sure to update the MASON stuff to have everything updated and working 
