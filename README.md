@@ -14,3 +14,5 @@ add to config \n
 
 
 ###make sure to update the MASON stuff to have everything updated and working 
+
+### Install Monocraft font as well https://github.com/IdreesInc/Monocraft/releases/tag/v1.4
