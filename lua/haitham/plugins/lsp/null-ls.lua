@@ -10,7 +10,6 @@ local diagnostics = null_ls.builtins.diagnostics -- to setup linters
 
 -- to setup format on save
 local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
-
 -- configure null_ls
 null_ls.setup({
 	-- setup formatters & linters
@@ -20,7 +19,7 @@ null_ls.setup({
 		formatting.prettier, -- js/ts formatter
 		formatting.stylua, -- lua formatter
 		formatting.black, -- python formatter
-        formatting.isort, -- python formatter
+		formatting.isort, -- python formatter
 		formatting.autopep8, -- python formatter
 		diagnostics.eslint_d.with({ -- js/ts linter
 			-- only enable eslint if root has .eslintrc.js (not in youtube nvim video)

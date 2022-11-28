@@ -112,6 +112,9 @@ return packer.startup(function(use)
 	-- indent lines
 	use("lukas-reineke/indent-blankline.nvim")
 
+	--preview colros
+	use("norcalli/nvim-colorizer.lua")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
