@@ -115,6 +115,9 @@ return packer.startup(function(use)
 	--preview colros
 	use("norcalli/nvim-colorizer.lua")
 
+	-- CSV
+	use("mechatroner/rainbow_csv")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end

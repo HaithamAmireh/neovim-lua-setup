@@ -42,3 +42,6 @@ keymap("n", "<leader>fs", "<cmd>Telescope live_grep<cr>", opts) -- find string i
 keymap("n", "<leader>fc", "<cmd>Telescope grep_string<cr>", opts) -- find string under cursor in current working directory
 keymap("n", "<leader>fb", "<cmd>Telescope buffers<cr>", opts) -- list open buffers in current neovim instance
 keymap("n", "<leader>fh", "<cmd>Telescope help_tags<cr>", opts) -- list available help tags
+
+-- autocomplete using tab
+-- keymap("i", "<Tab>", "<C-n>", opts)

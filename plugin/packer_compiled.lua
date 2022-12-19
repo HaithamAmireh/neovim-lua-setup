@@ -226,6 +226,11 @@ _G.packer_plugins = {
     path = "/home/haitham/.local/share/nvim/site/pack/packer/start/pop-punk.vim",
     url = "https://github.com/bignimbus/pop-punk.vim"
   },
+  rainbow_csv = {
+    loaded = true,
+    path = "/home/haitham/.local/share/nvim/site/pack/packer/start/rainbow_csv",
+    url = "https://github.com/mechatroner/rainbow_csv"
+  },
   ["shades-of-purple.vim"] = {
     loaded = true,
     path = "/home/haitham/.local/share/nvim/site/pack/packer/start/shades-of-purple.vim",
