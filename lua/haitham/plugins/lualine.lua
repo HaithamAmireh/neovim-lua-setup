@@ -10,7 +10,7 @@ local lualine_nightfly = require("lualine.themes.papercolor_dark")
 -- new colors for theme
 local new_colors = {
 	orange = "#FFA500",
-	green = "#3EFFDC",
+	green = "#FF9FDC",
 	violet = "#FF61EF",
 	yellow = "#FFDA7B",
 	black = "#000000",
@@ -36,6 +36,6 @@ lualine_nightfly.command = {
 -- })
 lualine.setup({
 	options = {
-		theme = "dracula",
+		theme = "everforest",
 	},
 })

@@ -118,6 +118,9 @@ return packer.startup(function(use)
 	-- CSV
 	use("mechatroner/rainbow_csv")
 
+	use("nvim-tree/nvim-web-devicons")
+	use({ "romgrk/barbar.nvim", wants = "nvim-web-devicons" })
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end

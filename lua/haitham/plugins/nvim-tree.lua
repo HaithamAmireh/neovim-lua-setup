@@ -34,4 +34,16 @@ nvimtree.setup({
 			},
 		},
 	},
+	view = {
+		side = "right",
+		signcolumn = "yes",
+		number = false,
+		relativenumber = true,
+		mappings = {
+			custom_only = false,
+			list = {
+				-- user mappings go here
+			},
+		},
+	},
 })

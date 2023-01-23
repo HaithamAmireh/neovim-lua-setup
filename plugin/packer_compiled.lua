@@ -89,6 +89,12 @@ _G.packer_plugins = {
     path = "/home/haitham/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister",
     url = "https://github.com/vim-scripts/ReplaceWithRegister"
   },
+  ["barbar.nvim"] = {
+    loaded = true,
+    path = "/home/haitham/.local/share/nvim/site/pack/packer/start/barbar.nvim",
+    url = "https://github.com/romgrk/barbar.nvim",
+    wants = { "nvim-web-devicons" }
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/haitham/.local/share/nvim/site/pack/packer/start/cmp-buffer",
