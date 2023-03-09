@@ -43,5 +43,9 @@ keymap("n", "<leader>fc", "<cmd>Telescope grep_string<cr>", opts) -- find string
 keymap("n", "<leader>fb", "<cmd>Telescope buffers<cr>", opts) -- list open buffers in current neovim instance
 keymap("n", "<leader>fh", "<cmd>Telescope help_tags<cr>", opts) -- list available help tags
 
+-- move lines up and done when highlighted
+keymap("v", "J", ":m '>+1<CR>gv=gv", opts)
+keymap("v", "K", ":m '<-2<CR>gv=gv", opts)
+
 -- autocomplete using tab
 -- keymap("i", "<Tab>", "<C-n>", opts)
